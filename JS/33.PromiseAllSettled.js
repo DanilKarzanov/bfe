@@ -9,7 +9,7 @@ function allSettled(promises) {
         return new Promise((resolve, _reject) => resolve([]))
     }
   
-    const results = Array(promises.lenght)
+    const results = Array(promises.length)
   
     return new Promise((resolve, _reject) => {
         promises.forEach((promise, idx) => {
